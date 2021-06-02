@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+admin-app/node_modules
+admin-app/.pnp
+admin-app/.pnp.js
+
+# testing
+admin-app//coverage
+
+# production
+admin-app//build
+
+# misc
+admin-app/.DS_Store
+admin-app/.env.local
+admin-app/.env.development.local
+admin-app/.env.test.local
+admin-app/.env.production.local
+
+admin-app/npm-debug.log*
+admin-app/yarn-debug.log*
+admin-app/yarn-error.log*
+
+
+mern-backend/node_modules
